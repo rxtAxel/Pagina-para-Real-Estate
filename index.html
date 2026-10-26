@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Fácil - Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">Ventas de Casas</h2>
+        <div class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#propiedades">Propiedades</a>
+            <a href="#detalle">Detalle</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </div>
+    <div class="seccion inicio" id="inicio">
+        <h1>Encuentra la casa de tus sueños</h1>
+        <p>Casas, apartamentos y villas en toda República Dominicana</p>
+        <img class="imagen-grande" src="imagenes/inicio.jpg" alt="Casa en portada">
+        <br>
+        <a href="#propiedades" class="boton">Ver propiedades</a>
+    </div>
+    <div class="seccion" id="propiedades">
+        <h2>Listado de Propiedades</h2>
+
+        <div class="contenedor-tarjetas">
+
+            <div class="tarjeta">
+                <img class="imagen" src="imagenes/apartamento moderno.jpg" alt="Apartamento moderno">
+                <h3>Apartamento Moderno</h3>
+                <p>3 hab | 2 baños | 120 m</p>
+                <p class="precio">US$ 185,000</p>
+                <a href="#detalle" class="boton">Ver detalle</a>
+            </div>
+
+            <div class="tarjeta">
+                <img class="imagen" src="imagenes/casa con jardin.jpg" alt="Casa con jardín">
+                <h3>Casa con Jardín</h3>
+                <p>4 hab | 3 baños | 280 m</p>
+                <p class="precio">US$ 320,000</p>
+                <a href="#detalle" class="boton">Ver detalle</a>
+            </div>
+
+            <div class="tarjeta">
+                <img class="imagen" src="imagenes/villa frente al mar.jpg" alt="Villa frente al mar">
+                <h3>Villa frente al Mar</h3>
+                <p>5 hab | 4 baños | 450 m</p>
+                <p class="precio">US$ 540,000</p>
+                <a href="#detalle" class="boton">Ver detalle</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="seccion gris" id="detalle">
+        <h2>Detalle de la Propiedad</h2>
+
+        <div class="detalle">
+            <div class="detalle-izquierda">
+                <img class="imagen-grande" src="imagenes/detalles.jpg" alt="Villa frente al mar">
+                <h3>Villa frente al Mar</h3>
+                <p>Ubicación: Punta Cana, La Altagracia</p>
+                <p>
+                    Villa de dos niveles con acceso a la playa, piscina privada
+                    y cocina amplia. Ideal para vivir o para rentar.
+                </p>
+                <ul>
+                    <li>Habitaciones: 4</li>
+                    <li>Baños: 2</li>
+                    <li>Construcción: 450 m</li>
+                    <li>Parqueos: 1</li>
+                </ul>
+            </div>
+
+            <div class="detalle-derecha">
+                <p class="precio">US$ 540,000</p>
+                <p>Agente: Axel De La Rosa</p>
+                <p>Tel: 829-994-3399</p>
+                <a href="#contacto" class="boton">Contactar agente</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="seccion" id="contacto">
+        <h2>Formulario de Contacto</h2>
+
+        <form class="formulario">
+            <label>Nombre:</label>
+            <input type="text" placeholder="Tu nombre">
+
+            <label>Correo:</label>
+            <input type="email" placeholder="correo@ejemplo.com">
+
+            <label>Teléfono:</label>
+            <input type="tel" placeholder="809-000-0000">
+
+            <label>Mensaje:</label>
+            <textarea rows="4" placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>© Ventas de Casas - Buena Calificacion</p>
+    </div>
+
+</body>
+</html>
